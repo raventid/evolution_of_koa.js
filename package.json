@@ -1,0 +1,35 @@
+{
+  "name": "KoaVote",
+  "version": "0.0.1",
+  "description": "A simple voting site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony app.js",
+    "test": "./node_modules/mocha/bin/mocha --harmony-generators -u bdd -R spec"
+  },
+  "keywords": [
+    "koa",
+    "vote",
+    "poll",
+    "mongodb"
+  ],
+  "author": "Marcus Hammarberg @marcusoftnet",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "supertest": "~0.13.0",
+    "co": "~3.1.0",
+    "should": "~4.0.4"
+  },
+  "dependencies": {
+    "koa-route": "~2.0.0",
+    "koa": "~0.10.0",
+    "co-views": "~0.2.0",
+    "swig": "~1.4.2",
+    "koa-static": "~1.4.7",
+    "co-monk": "~1.0.0",
+    "monk": "~0.9.0",
+    "co-body": "~1.0.0",
+    "bluebird": "~2.3.10"
+  }
+}
